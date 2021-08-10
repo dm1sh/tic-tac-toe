@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="ttt_game",
-    version="0.0.1",
+    version="0.1.0",
     author="dm1sh",
     author_email="me@dmitriy.icu",
     description="A simple tic tac toe game implementation",

@@ -3,7 +3,7 @@ from enum import Enum
 
 
 class Pl(Enum):
-  X = 3
+  X = 1
   O = 2
 
 
@@ -22,6 +22,10 @@ class Game:
    [3, 4, 5],
 
    [6, 7, 8]]
+
+   Board array itself:
+
+  [Tr.E, Tr.E, Tr.E, Tr.E, Tr.E, Tr.E, Tr.E, Tr.E, Tr.E]
   """
   _board: List[Tr]
 
@@ -86,7 +90,7 @@ class Game:
 
   def get_free(self) -> Tuple[int]:
     """
-    Returns 
+    Returns indexes of free game board cells
     """
 
     return tuple(filter(lambda i: self._board[i] == Tr.E, range(9)))
