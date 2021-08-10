@@ -1,4 +1,4 @@
-from src.tic_tac_toe import Game, Tr
+from src.ttt_game import Game, Tr
 
 
 def test_init():

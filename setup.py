@@ -4,16 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
   long_description = fh.read()
 
 setuptools.setup(
-    name="tic-tac-toe-dm1sh",
+    name="ttt_game",
     version="0.0.1",
     author="dm1sh",
     author_email="me@dmitriy.icu",
     description="A simple tic tac toe game implementation",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/dm1sh/tic-tac-toe",
+    url="https://github.com/dm1sh/ttt-game",
     project_urls={
-        "Bug Tracker": "https://github.com/dm1sh/tic-tac-toe/issues",
+        "Bug Tracker": "https://github.com/dm1sh/ttt-game/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
