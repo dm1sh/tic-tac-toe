@@ -1,7 +1,7 @@
 # TTT-game
 
-[![codecov](https://codecov.io/gh/dm1sh/tic-tac-toe/branch/main/graph/badge.svg)](https://codecov.io/gh/dm1sh/tic-tac-toe)
-![CI](https://github.com/dm1sh/tic-tac-toe/actions/workflows/ci.yaml/badge.svg)
+[![codecov](https://codecov.io/gh/dm1sh/ttt-game/branch/main/graph/badge.svg?token=7GZ4FJ3E4E)](https://codecov.io/gh/dm1sh/ttt-game)
+[![Test and Publish](https://github.com/dm1sh/ttt-game/actions/workflows/ci.yml/badge.svg)](https://github.com/dm1sh/ttt-game/actions/workflows/ci.yml)
 
 A simple tic tac toe game implementation
 
